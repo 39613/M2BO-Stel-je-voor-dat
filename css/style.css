@@ -72,6 +72,34 @@ article{
 }
 
 
+/* pagina 1 foto 1 */
+
+#page1foto1{
+    transition: 0.4s transform;
+    width: 40%;
+    height: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#page1foto1:hover{
+    transform: scale(1.1);
+}
+
+/* pagina 1 foto 2 */
+
+#page1foto2{
+    transition: 0.4s transform;
+    padding-top: 10px;
+}
+
+#page1foto2:hover{
+    transform: scale(1.1);
+}
+
+
+
+
 /* pagina 2 foto en hover modal*/
 
 img{
