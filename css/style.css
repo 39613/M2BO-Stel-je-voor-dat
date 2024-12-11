@@ -10,15 +10,21 @@ header, footer{
     margin: 0 auto;
 }
 
+/* header*/
+
 header{
     list-style: none;
     background-color: rgb(255, 255, 255);
     margin: 0.4px auto;
 }
 
+/* menubalk active aanpassingen */
+
 .active{
     border: solid rgb(68, 0, 255) 2.4px;
 }
+
+/* NAV/menu balk */
 
 nav{
     width: 100%;
@@ -55,7 +61,7 @@ nav> ul > li > a{
     color: rgb(0, 0, 0);
 }
 
-
+/* article */
 
 article{
     width: 60vw;
@@ -64,6 +70,9 @@ article{
     background-color: rgb(255, 255, 255);
     font-size: 100%;
 }
+
+
+/* pagina 2 foto en hover modal*/
 
 img{
     width: 33%;
@@ -81,13 +90,15 @@ img{
     transform: scale(1.2);
 }
 
-#page2fotobeschrijfing1{
+/* pagina 2 foto bescrijving*/
+
+#page2fotobeschrijving1{
     display:block;
     width: 30%;
 
 }
 
-#page2fotobeschrijfing2{
+#page2fotobeschrijving2{
     display: block;
     width: 30%;
     position: relative;
@@ -95,13 +106,15 @@ img{
     bottom: 56px;
 }
 
-#page2fotobeschrijfing3{
+#page2fotobeschrijving3{
     display: block;
     width: 30%;
     position: relative;
     left: 560px;
     bottom: 110px;
 }
+
+/* Pagina 3*/
 
 #dagboek{
     list-style: none;
@@ -117,6 +130,8 @@ img{
     padding-bottom: 10px;
     padding-top: 5px;
 }
+
+/* footer */
 
 footer{
     display: flex;
