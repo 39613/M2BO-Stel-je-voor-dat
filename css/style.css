@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: grey;
+}
+
 header, footer{
     width: 60vw;
     height: 90px;
@@ -69,6 +73,35 @@ article{
     padding: 45px;
     background-color: rgb(255, 255, 255);
     font-size: 100%;
+    font-family: serif;
+}
+
+/* pagina 1 tekst */
+
+#page1tekst1{
+    display: flex;
+    width: 300px;
+    position: absolute;
+    right: 490px;
+    top: 275px;
+}
+
+#page1tekst2{
+    display: flex;
+    width: 300px;
+    position: absolute;
+    right: 490px;
+    top: 510px;
+    padding-bottom: 7px;
+}
+
+#page1list{
+    display: block;
+    width: 300px;
+    position: absolute;
+    right: 490px;
+    top: 610px;
+    font-style: italic;
 }
 
 
