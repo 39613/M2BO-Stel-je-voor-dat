@@ -79,7 +79,6 @@ article{
 /* pagina 1 tekst */
 
 #page1tekst1{
-    display: flex;
     width: 300px;
     position: absolute;
     right: 490px;
@@ -203,4 +202,184 @@ footer{
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+
+/* 1475 pixel screen*/
+
+@media screen and (max-width: 1475px){
+
+/* pagina 2 foto en hover modal*/
+
+img{
+    width: 30%;
+    height: 30%;
+    padding-bottom: 10px;
+}
+
+.fotopagina2:hover{
+    transform: scale(1.2);
+}
+}
+
+
+/* 1375 pixel screen*/
+
+
+@media screen and (max-width: 1375px){
+
+    #page1foto1:hover{
+        transform: scale(1.1);
+    }
+
+    #page1foto1:hover{
+        transform: scale(1.1);
+    }
+
+    #page1tekst1{
+        width: 300px;
+        position: absolute;
+        right: 400px;
+        top: 225px;
+    }
+    
+    #page1tekst2{
+        display: flex;
+        width: 300px;
+        position: absolute;
+        right: 400px;
+        top: 400px;
+        padding-bottom: 7px;
+    }
+    
+    #page1list{
+        display: block;
+        width: 300px;
+        position: absolute;
+        right: 400px;
+        top: 500px;
+        font-style: italic;
+    }
+
+    /* pagina 2 foto bescrijving*/
+
+    .fotopagina2:hover{
+        transform: scale(1.2);
+    }
+
+    #page2fotobeschrijving1{
+        display:block;
+        width: 30%;
+
+    }
+
+    #page2fotobeschrijving2{
+        display: block;
+        width: 25%;
+        position: relative;
+        left: 240px;
+        bottom: 56px;
+    }
+
+    #page2fotobeschrijving3{
+        display: block;
+        width: 30%;
+        position: relative;
+        left: 470px;
+        bottom: 130px;
+    }
+}
+
+/* 1208 pixel screen*/
+
+@media screen and (max-width: 1208px){
+
+    #page1foto1:hover{
+        transform: scale(1.1);
+    }
+
+    #page1foto1:hover{
+        transform: scale(1.1);
+    }
+
+    #page1tekst1{
+        width: 300px;
+        position: absolute;
+        right: 280px;
+        top: 175px;
+    }
+    
+    #page1tekst2{
+        display: flex;
+        width: 300px;
+        position: absolute;
+        right: 280px;
+        top: 350px;
+        padding-bottom: 7px;
+    }
+    
+    #page1list{
+        display: block;
+        width: 300px;
+        position: absolute;
+        right: 280px;
+        top: 450px;
+        font-style: italic;
+    }
+
+    /* pagina 2 foto bescrijving*/
+
+    .fotopagina2:hover{
+        transform: scale(1.2);
+    }
+
+    #page2fotobeschrijving1{
+        display:block;
+        width: 30%;
+
+    }
+
+    #page2fotobeschrijving2{
+        display: block;
+        width: 25%;
+        position: relative;
+        left: 200px;
+        bottom: 56px;
+    }
+
+    #page2fotobeschrijving3{
+        display: block;
+        width: 30%;
+        position: relative;
+        left: 400px;
+        bottom: 150px;
+    }
+
+}
+
+/*1100 pixel screen*/
+
+@media screen and (max-width: 1375px){
+
+    /* pagina 2 foto bescrijving*/
+
+    .fotopagina2:hover{
+        transform: scale(1.2);
+    }
+
+    #page2fotobeschrijving2{
+        display: block;
+        width: 25%;
+        position: relative;
+        left: 190px;
+        bottom: 68px;
+    }
+
+    #page2fotobeschrijving3{
+        display: block;
+        width: 30%;
+        position: relative;
+        left: 370px;
+        bottom: 180px;
+    }
 }
